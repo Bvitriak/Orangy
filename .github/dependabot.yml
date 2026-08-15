@@ -1,0 +1,18 @@
+# Dependabot configuration for Orangy
+# Docs: https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+#
+# Orangy is a dependency-free static site (plain HTML/CSS/vanilla JS, no
+# package manager). The only thing Dependabot can keep current here are the
+# versions of any GitHub Actions used in CI/deploy workflows.
+version: 2
+updates:
+  # Keep GitHub Actions (e.g. Pages deploy) up to date
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "ci"
+    labels:
+      - "dependencies"
+      - "github-actions"
