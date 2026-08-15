@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="350" height="150" viewBox="0 0 350 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path id="Price Block" d="M0 0H350L331.188 91.875L279.125 127.875L128.188 144.75L0 150V0Z" fill="url(#paint0_linear_0_4)"/>
+<defs>
+<linearGradient id="paint0_linear_0_4" x1="317.64" y1="-68.1274" x2="-33.3822" y2="54.2403" gradientUnits="userSpaceOnUse">
+<stop stop-color="#AB2F0B"/>
+<stop offset="1" stop-color="#C8441D"/>
+</linearGradient>
+</defs>
+</svg>

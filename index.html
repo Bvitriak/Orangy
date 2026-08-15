@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Orangy – Own a home you'll fall in love with">
+  <title>Orangy</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/favicons/favicon-48.png">
+  <link rel="apple-touch-icon" href="assets/favicons/apple-touch-icon.png">
+  <link rel="icon" href="assets/logo/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@500;700&family=Special+Elite&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header" id="siteHeader">
+      <a href="#top" class="logo logo--header" aria-label="Orangy home">
+        <img class="logo__image" src="assets/logo/logo-wordmark.png" alt="Orangy">
+      </a>
+      <nav class="site-navigation" aria-label="Primary">
+        <a href="#about" class="navigation-link">About</a>
+        <a href="#gallery" class="navigation-link">Gallery</a>
+        <a href="#location" class="navigation-link">Location</a>
+        <a href="#price" class="navigation-link">Price</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="navigationOverlay">
+        <img src="assets/icons/menu.svg" alt="">
+      </button>
+    </header>
+    <main>
+      <section class="hero" id="top">
+        <h1 class="hero__heading">
+          <span class="hero__line">Own a home</span>
+          <span class="hero__line hero__line--emphasis"><span class="italic-raleway">you&rsquo;ll</span> <span class="italic-lora">fall in love with</span></span>
+        </h1>
+      </section>
+      <section class="about section" id="about">
+        <a href="#top" class="logo logo--about" aria-label="Orangy">
+          <img class="logo__image" src="assets/logo/logo-wordmark.png" alt="Orangy">
+        </a>
+        <h2 class="about__heading">Where Modern Living<br>Meets Warmth</h2>
+        <p class="about__text">
+          At Orangy, we believe a home should be more than just a place to live &mdash; it should be a
+          source of daily inspiration. Our spaces combine bold, energetic architecture with functional
+          design to create bright, welcoming environments. Discover a community designed around your
+          comfort, passion, and style.
+        </p>
+      </section>
+      <section class="gallery section" id="gallery">
+        <div class="gallery__track">
+          <h2 class="gallery__heading">Functional Beauty <br class="gallery__break">for Your Every&nbsp;Day.</h2>
+          <figure class="gallery__item">
+            <div class="gallery__image"><img src="assets/images/gallery-1.png" alt="Gourmet kitchen"></div>
+            <figcaption class="gallery__caption">Gourmet Hub</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <div class="gallery__image"><img src="assets/images/gallery-2.png" alt="Spa-style bathroom"></div>
+            <figcaption class="gallery__caption">Spa Retreat</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <div class="gallery__image"><img src="assets/images/gallery-3.png" alt="Social lounge"></div>
+            <figcaption class="gallery__caption">Social Lounge</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <div class="gallery__image"><img src="assets/images/gallery-4.png" alt="Bedroom sanctuary"></div>
+            <figcaption class="gallery__caption">Dream Sanctuary</figcaption>
+          </figure>
+          <p class="gallery__subheading">Designed for Living.<br><span class="italic-lora">Crafted for Dreaming.</span></p>
+        </div>
+      </section>
+      <section class="location section" id="location">
+        <h2 class="location__heading">Location of your <span class="italic-lora">dream home</span></h2>
+        <div class="location__map">
+          <iframe
+            class="location__map-frame"
+            title="Map — 6190 Atlantic Ave, Long Beach, CA 90805"
+            src="https://maps.google.com/maps?q=6190%20Atlantic%20Ave,%20Long%20Beach,%20CA%2090805,%20USA&z=16&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+          <div class="location__map-guard" role="button" tabindex="0" aria-label="Click to interact with the map"></div>
+        </div>
+      </section>
+      <section class="price section" id="price">
+        <div class="price__media" aria-hidden="true"></div>
+        <div class="price__tag">
+          <span class="price__amount">$ 1&nbsp;000&nbsp;000</span>
+        </div>
+        <h2 class="price__heading">Own a home<br><span class="italic-raleway">you&rsquo;ll</span> <span class="italic-lora">fall in love with</span></h2>
+        <form class="contact-form" novalidate>
+          <input class="field" type="text" name="name" placeholder="Enter Name" aria-label="Name" autocomplete="name">
+          <input class="field" type="email" name="email" placeholder="Enter Email" aria-label="Email" autocomplete="email">
+          <textarea class="field field--area" name="info" rows="2" placeholder="Please leave any additional information you think is necessary" aria-label="Additional information"></textarea>
+          <button class="button-submit" type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer" aria-label="Orangy">
+      <div class="site-footer__letters" aria-hidden="true">
+        <img src="assets/shapes/footer-r.svg" alt="">
+        <img src="assets/shapes/footer-a.svg" alt="">
+        <img src="assets/shapes/footer-n.svg" alt="">
+        <img src="assets/shapes/footer-g.svg" alt="">
+        <img src="assets/shapes/footer-y.svg" alt="">
+      </div>
+    </footer>
+    <div class="navigation-overlay" id="navigationOverlay" role="dialog" aria-modal="true" aria-label="Menu" aria-hidden="true">
+      <div class="navigation-overlay__header">
+        <a href="#top" class="logo logo--header" data-navigation-close>
+          <img class="logo__image" src="assets/logo/logo-wordmark.png" alt="Orangy">
+        </a>
+        <button class="navigation-overlay__close" id="navigationClose" aria-label="Close menu">
+          <img src="assets/icons/close.svg" alt="">
+        </button>
+      </div>
+      <nav class="navigation-overlay__links" aria-label="Mobile">
+        <a href="#about" class="navigation-link" data-navigation-close>About</a>
+        <a href="#gallery" class="navigation-link" data-navigation-close>Gallery</a>
+        <a href="#location" class="navigation-link" data-navigation-close>Location</a>
+        <a href="#price" class="navigation-link" data-navigation-close>Price</a>
+      </nav>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
